@@ -1,0 +1,93 @@
+{
+  "source_dir": "..\\data\\qwen_step4",
+  "total_samples": 13034,
+  "allowed_labels": [
+    "NONE",
+    "CV_MILITARY_CAMP",
+    "CV_POSITION",
+    "CV_SEX",
+    "FD_MAJOR",
+    "LC_ADDRESS",
+    "LC_PLACE",
+    "OGG_CLUB",
+    "OGG_RELIGION",
+    "OG_WORKPLACE",
+    "PS_NAME",
+    "PS_NICKNAME",
+    "QT_ALIEN_NUMBER",
+    "QT_FOREIGNER_NUMBER",
+    "QT_RESIDENT_NUMBER",
+    "TM_BLOOD_TYPE"
+  ],
+  "splits": {
+    "train": {
+      "samples": 10394,
+      "positive": 9180,
+      "negative": 1214,
+      "labels": {
+        "CV_MILITARY_CAMP": 327,
+        "CV_POSITION": 865,
+        "CV_SEX": 367,
+        "FD_MAJOR": 512,
+        "LC_ADDRESS": 861,
+        "LC_PLACE": 889,
+        "NONE": 1214,
+        "OGG_CLUB": 959,
+        "OGG_RELIGION": 374,
+        "OG_WORKPLACE": 823,
+        "PS_NAME": 1520,
+        "PS_NICKNAME": 1045,
+        "QT_ALIEN_NUMBER": 157,
+        "QT_RESIDENT_NUMBER": 154,
+        "TM_BLOOD_TYPE": 327
+      },
+      "unique_sentences": 8698
+    },
+    "valid": {
+      "samples": 1327,
+      "positive": 1175,
+      "negative": 152,
+      "labels": {
+        "CV_MILITARY_CAMP": 39,
+        "CV_POSITION": 108,
+        "CV_SEX": 48,
+        "FD_MAJOR": 65,
+        "LC_ADDRESS": 111,
+        "LC_PLACE": 110,
+        "NONE": 152,
+        "OGG_CLUB": 122,
+        "OGG_RELIGION": 54,
+        "OG_WORKPLACE": 103,
+        "PS_NAME": 203,
+        "PS_NICKNAME": 130,
+        "QT_ALIEN_NUMBER": 21,
+        "QT_RESIDENT_NUMBER": 20,
+        "TM_BLOOD_TYPE": 41
+      },
+      "unique_sentences": 1083
+    },
+    "test": {
+      "samples": 1313,
+      "positive": 1159,
+      "negative": 154,
+      "labels": {
+        "CV_MILITARY_CAMP": 42,
+        "CV_POSITION": 105,
+        "CV_SEX": 52,
+        "FD_MAJOR": 61,
+        "LC_ADDRESS": 106,
+        "LC_PLACE": 115,
+        "NONE": 154,
+        "OGG_CLUB": 118,
+        "OGG_RELIGION": 49,
+        "OG_WORKPLACE": 107,
+        "PS_NAME": 188,
+        "PS_NICKNAME": 131,
+        "QT_ALIEN_NUMBER": 22,
+        "QT_RESIDENT_NUMBER": 26,
+        "TM_BLOOD_TYPE": 37
+      },
+      "unique_sentences": 1097
+    }
+  }
+}
